@@ -20,7 +20,7 @@ export default function Header() {
             <div className="header-left">
                 <img src={logo} alt="the social network" className="logo"/>
             </div>
-            <div>
+            <div className="header-input">
                 <SearchIcon />
                 <input placeholder="Search TSN" type="text"/>
             </div>
