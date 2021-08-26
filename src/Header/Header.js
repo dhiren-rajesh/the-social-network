@@ -12,6 +12,7 @@ import AddIcon from '@material-ui/icons/Add';
 import QuestionAnswerIcon from '@material-ui/icons/QuestionAnswer';
 import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import IconButton from '@material-ui/core/IconButton'
 
 export default function Header() {
     return (
@@ -44,10 +45,18 @@ export default function Header() {
                 <div className="header-info">
                     <AccountCircleIcon/>
                     <h4>Active User</h4>
-                    <AddIcon/>
-                    <QuestionAnswerIcon/>
-                    <NotificationsActiveIcon/>
-                    <ExpandMoreIcon/>
+                    <IconButton>
+                        <AddIcon/>
+                    </IconButton>
+                    <IconButton>
+                        <QuestionAnswerIcon/>
+                    </IconButton>
+                    <IconButton>
+                        <NotificationsActiveIcon/>
+                    </IconButton>
+                    <IconButton>
+                        <ExpandMoreIcon/>
+                    </IconButton>
                 </div>
             </div>
         </div>
