@@ -7,12 +7,12 @@ import FlagIcon from '@material-ui/icons/Flag';
 import SubscriptionsOutlinedIcon from '@material-ui/icons/SubscriptionsOutlined';
 import StorefrontOutlinedIcon from '@material-ui/icons/StorefrontOutlined';
 import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import AddIcon from '@material-ui/icons/Add';
 import QuestionAnswerIcon from '@material-ui/icons/QuestionAnswer';
 import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import IconButton from '@material-ui/core/IconButton'
+import { Avatar } from '@material-ui/core';
 
 export default function Header() {
     return (
@@ -43,7 +43,7 @@ export default function Header() {
             </div>
             <div className="header-right">
                 <div className="header-info">
-                    <AccountCircleIcon/>
+                    <Avatar/>
                     <h4>Active User</h4>
                     <IconButton>
                         <AddIcon/>
