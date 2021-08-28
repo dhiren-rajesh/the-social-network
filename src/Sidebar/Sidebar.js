@@ -11,7 +11,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
 export default function Sidebar() {
     return (
-        <div>
+        <div className="sidebar">
             {/* <SidebarRow src={user.photoURL} title={user.displayName}/> */}
             <SidebarRow Icon={LocalHospitalIcon} title="Covid-19 Information Center" />
             <SidebarRow Icon={EmojiFlagsIcon} title="Pages" />
