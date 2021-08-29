@@ -43,8 +43,8 @@ export default function Header() {
             </div>
             <div className="header-right">
                 <div className="header-info">
-                    <Avatar/>
-                    <h4>Active User</h4>
+                    <Avatar src="https://pbs.twimg.com/profile_images/1184114794103595010/021TqaVX.jpg"/>
+                    <h4>Dhiren Rajesh</h4>
                     <IconButton>
                         <AddIcon/>
                     </IconButton>
