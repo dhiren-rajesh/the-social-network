@@ -6,7 +6,7 @@ import PhotoLibraryIcon from '@material-ui/icons/PhotoLibrary';
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 
 export default function MessageSender() {
-    const [input, setInput] = useState(' ');
+    const [input, setInput] = useState(null);
     const [image, setImage] = useState(null);
 
     const handleChange = (e) => {
@@ -39,16 +39,16 @@ export default function MessageSender() {
                     <button onClick={handleSubmit} type="submit">Hidden Submit</button>
                 </form>
             </div>
-            <div className="messenger-sender-bottom">
-                <div className="messenger-sender-option">
+            <div className="message-sender-bottom">
+                <div className="message-sender-option">
                     <VideocamIcon style={{color: "red"}} />
                     <h3>Live Video</h3>
                 </div>
-                <div className="messenger-sender-option">
+                <div className="message-sender-option">
                     <PhotoLibraryIcon style={{color: "green"}} />
                     <h3>Photo/Video</h3>
                 </div>
-                <div className="messenger-sender-option">
+                <div className="message-sender-option">
                     <InsertEmoticonIcon style={{color: "orange"}} />
                     <h3>Feeling/Activity</h3>
                 </div>
