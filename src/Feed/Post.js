@@ -16,23 +16,23 @@ export default function Post({profilePic, message, timestamp, imgName, username}
                     <h3>{username}</h3>
                     <p>{new Date(parseInt(timestamp)).toUTCString()}</p>
                 </div>
-                <div className="post-options">
-                    <div className="post-op">
-                        <ThumbUpIcon />
-                        <p>Like</p>
-                    </div>
-                    <div className="post-op">
-                        <ChatBubbleOutlineIcon />
-                        <p>Comment</p>
-                    </div>
-                    <div className="post-op">
-                        <NearMeIcon />
-                        <p>Share</p>
-                    </div>
-                    <div className="post-op">
-                        <AccountCircleIcon />
-                        <ExpandMoreIcon />
-                    </div>
+            </div>
+            <div className="post-options">
+                <div className="post-op">
+                    <ThumbUpIcon />
+                    <p>Like</p>
+                </div>
+                <div className="post-op">
+                    <ChatBubbleOutlineIcon />
+                    <p>Comment</p>
+                </div>
+                <div className="post-op">
+                    <NearMeIcon />
+                    <p>Share</p>
+                </div>
+                <div className="post-op">
+                    <AccountCircleIcon />
+                    <ExpandMoreIcon />
                 </div>
             </div>
         </div>
