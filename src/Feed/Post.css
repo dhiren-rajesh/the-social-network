@@ -29,3 +29,36 @@
   font-size: small;
   color: gray;
 }
+
+.post-bottom {
+  margin: 10px 0;
+  padding: 15px 25px;
+}
+
+.post-options {
+  padding: 10px;
+  border-top: 1px solid lightgray;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: medium;
+  color: gray;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.post-op {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  float: 1;
+}
+
+.post-op > p {
+  margin-left: 10px;
+}
+
+.post-op:hover {
+  color: #2e81f4;
+  border-radius: 10px;
+}

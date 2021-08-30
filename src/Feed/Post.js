@@ -17,6 +17,9 @@ export default function Post({profilePic, message, timestamp, imgName, username}
                     <p>{new Date(parseInt(timestamp)).toUTCString()}</p>
                 </div>
             </div>
+            <div className="post-bottom">
+                <p>{message}</p>
+            </div>
             <div className="post-options">
                 <div className="post-op">
                     <ThumbUpIcon />
