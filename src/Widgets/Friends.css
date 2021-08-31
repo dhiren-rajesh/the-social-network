@@ -1,0 +1,14 @@
+.friends {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.profile-pic {
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.profile-pic:hover {
+  transform: scale(1.07);
+}
