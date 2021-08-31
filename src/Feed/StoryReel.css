@@ -1,3 +1,7 @@
 .story-reel {
   display: flex;
 }
+
+.add-story {
+  margin: 50px 25px;
+}
